@@ -1,21 +1,27 @@
-package ir.rezazadeh.interview.avan;
+package interview.avan.goods.service.model;
 
-import java.util.Objects;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 /**
  * Represent a movable property which has id, weight and price.
  */
+@Entity
 public class Good {
+
+    @Id
+    private Integer id;
+    private Float weight;
+    private Float price;
+
+    public Good() {
+    }
 
     public Good(Integer id, Float weight, Float price) {
         this.id = id;
         this.weight = weight;
         this.price = price;
     }
-
-    private Integer id;
-    private Float weight;
-    private Float price;
 
     public Integer getId() {
         return id;

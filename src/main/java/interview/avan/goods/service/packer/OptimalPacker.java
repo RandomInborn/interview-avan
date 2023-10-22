@@ -1,4 +1,6 @@
-package ir.rezazadeh.interview.avan;
+package interview.avan.goods.service.packer;
+
+import interview.avan.goods.service.model.Good;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +25,6 @@ public class OptimalPacker {
      * @param maxWeight Maximum package weight permitted
      * @param chosenGoods Goods chosen to be in optimal pack till now
      * @param remainingGoods Remaining goods which are going to choose
-     * @return
      */
     private static List<Good> chooseOptimalPack(float maxWeight, List<Good> chosenGoods, List<Good> remainingGoods) {
 

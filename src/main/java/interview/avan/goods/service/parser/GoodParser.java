@@ -1,4 +1,6 @@
-package ir.rezazadeh.interview.avan;
+package interview.avan.goods.service.parser;
+
+import interview.avan.goods.service.model.Good;
 
 import java.util.ArrayList;
 import java.util.List;

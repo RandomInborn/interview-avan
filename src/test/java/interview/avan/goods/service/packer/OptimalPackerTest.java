@@ -1,5 +1,6 @@
-package ir.rezazadeh.interview.avan;
+package interview.avan.goods.service.packer;
 
+import interview.avan.goods.service.model.Good;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
